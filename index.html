@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">CROSSFIT</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#products" class="navbar__links" id="products-page"
+              >Products</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <div class="hero__heading">
+          <h1>BUILD YOUR <span>BODY</span></h1>
+        <p class="hero__description">
+          TRANSFORM YOUR LIFE</p>
+          <p class="hero__description1">
+            ARE YOU READY TO GET FIT?</p>
+          <button class="main__btn"><a href="#sign-up" id="signup">Get Started</a></button>
+        </div>
+        <div class="main__img--container">
+          <img src="images/crtpic2.png" alt="pic" id="main__img">
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>CROSSFIT - FAT LOSS PROGRAM</h1>
+          <h2> Choose this program if you’d want to shed excess fat from your body and improve your physique. In this 16 weeks online course, I created a step by step practical plan for people who are ready to lose fat with expert help and tested methods.</h2>
+          <h1>CROSSFIT - BULKING PROGRAM</h1>
+          <h2>Choose this program if you’d want to gain quality mass and build a muscular, strong and ripped body. In this 16 weeks online course, I created a step by step practical plan for people who are tired of being small and want to bulk up with expert help and tested methods.</h2>
+          <h1>CROSSFIT - BODY RECOMPOSITION PROGRAM</h1>
+          <h2>Choose this program if you’d want to shed excess fat from your body and improve your physique. In this 16 weeks online course, I created a step by step practical plan for people who are ready to lose fat with expert help and tested methods.</h2>
+          
+          
+        </div>
+        <div class="main__img--container">
+          <img src="images/crtpic3.png" alt="pic" id="main__img">
+        </div>
+      </div>
+    </div>
+
+
+    <!--Registration form-->
+    
+      <div class="container" id="sign-up"> 
+      <header>Registration</header>
+
+      <form action="#">
+          <div class="form first">
+              <div class="details personal">
+                  <span class="title">Personal Details</span>
+
+                  <div class="fields">
+                      <div class="input-field">
+                          <label>Full Name</label>
+                          <input type="text" placeholder="Enter your name" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Date of Birth</label>
+                          <input type="date" placeholder="Enter birth date" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Email</label>
+                          <input type="text" placeholder="Enter your email" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Mobile Number</label>
+                          <input type="number" placeholder="Enter mobile number" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Gender</label>
+                          <select required>
+                              <option disabled selected>Select gender</option>
+                              <option>Male</option>
+                              <option>Female</option>
+                              <option>Others</option>
+                          </select>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Occupation</label>
+                          <input type="text" placeholder="Enter your ccupation" required>
+                      </div>
+                  </div>
+              </div>
+
+              
+
+              <div class="details ID">
+                  <span class="title">Payment Details(only Credit & Debit Card Accepted)</span>
+
+                  <div class="fields">
+                      <div class="input-field">
+                          <label>Name on Card</label>
+                          <input type="text" placeholder="Enter the Name" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Card Number</label>
+                          <input type="number" placeholder="Enter Card number" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Enter 3 Digit Number</label>
+                          <input type="text" placeholder="Enter the Numeber" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Enter the Password</label>
+                          <input type="text" placeholder="Enter the Password" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Card Issued Date</label>
+                          <input type="date" placeholder="Enter your issued date" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Card Expiry Date</label>
+                          <input type="date" placeholder="Enter expiry date" required>
+                      </div>
+                  </div>
+
+                  <button class="nextBtn">
+                      <span class="btnText">Next</span>
+                      <i class="uil uil-navigator"></i>
+                  </button>
+              </div> 
+          </div>
+
+          <div class="form second">
+              <div class="details address">
+                  <span class="title">Address Details</span>
+
+                  <div class="fields">
+                      <div class="input-field">
+                          <label>Address Type</label>
+                          <input type="text" placeholder="Permanent or Temporary" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Nationality</label>
+                          <input type="text" placeholder="Enter nationality" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>State</label>
+                          <input type="text" placeholder="Enter your state" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>District</label>
+                          <input type="text" placeholder="Enter your district" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Door Number</label>
+                          <input type="number" placeholder="Enter door number" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>House Number</label>
+                          <input type="number" placeholder="Enter house number" required>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="details family">
+                  <span class="title">Details About the Body</span>
+
+                  <div class="fields">
+                      <div class="input-field">
+                          <label>Body Weight</label>
+                          <input type="text" placeholder="Enter body weight" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Target Body Weight</label>
+                          <input type="text" placeholder="Enter target weight" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Height</label>
+                          <input type="text" placeholder="Enter your Height" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Waist Size</label>
+                          <input type="text" placeholder="Enter waist size" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Diet Chart(Y/N)</label>
+                          <input type="text" placeholder="diet chart required or not" required>
+                      </div>
+
+                      <div class="input-field">
+                          <label>Supplements(Y/N)</label>
+                          <input type="text" placeholder="supplements required or not" required>
+                      </div>
+                  </div>
+
+                  <div class="buttons">
+                      <div class="backBtn">
+                          <i class="uil uil-navigator"></i>
+                          <span class="btnText">Back</span>
+                      </div>
+                      
+                      <button class="sumbit">
+                          <span class="btnText">Submit</span>
+                          <i class="uil uil-navigator"></i>
+                      </button>
+                  </div>
+              </div> 
+          </div>
+      </form>
+  </div>
+</div>>
+
+  
+
+
+    <!-- Products Section -->
+    <div class="products" id="products">
+      <h1>Our Products</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Whey Protien</h2>
+          <p>Optimum Nutrition </p>
+          <div class="services__btn"><button type="button" onclick="location.href='https://www.amazon.in/Optimum-Nutrition-Standard-Protein-Powder/dp/B000QSNYGI/ref=sr_1_3_sspa?crid=3UXX3GK6J2GA9&keywords=protein+powder&qid=1662788007&sprefix=pro%2Caps%2C193&sr=8-3-spons&psc=1'"> BUY NOW</button></div>
+        </div>
+
+        <div class="services__card">
+          <h2>Pre-workout</h2>
+          <p>Knockout by Absolute Nutrition</p>
+          <div class="services__btn"><button type="button" onclick="location.href='https://www.amazon.in/Nutrition-Pre-workout-Endurance-Increased-Raspberry/dp/B0B7X178BK/ref=sr_1_2_sspa?crid=10BMQQAPF4863&keywords=pre+workout&qid=1662789858&sprefix=PRE%2Caps%2C276&sr=8-2-spons&psc=1'"> BUY NOW</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Liquid L-Carnitine</h2>
+          <p>MuscleBlaze</p>
+          <div class="services__btn"><button type="button" onclick="location.href='https://www.amazon.in/MuscleBlaze-L-Carnitine-Strength-Formula-Carnitine/dp/B09FFH8484/ref=sr_1_7?crid=XY4GO7Y5FASO&keywords=l+carnitine+3000mg&qid=1662789922&sprefix=L+%2Caps%2C271&sr=8-7'"> BUY NOW</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Omega 3 Fish Oil</h2>
+          <h2>1000 mg</h2>
+          <p>MuscleBlaze</p>
+          <div class="services__btn"><button type="button" onclick="location.href='https://www.amazon.in/MuscleBlaze-Omega-Fish-Oil-1000/dp/B07CNV8XM7/ref=sr_1_7?crid=2OTOYUK6RCVVJ&keywords=fishoil+omega+3&qid=1662788297&sprefix=fish%2Caps%2C209&sr=8-7'"> BUY NOW</button></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="products" id="products">
+     <div class="services__wrapper">
+        <div class="services__card">
+          <h2>BCAA Pro</h2>
+          <p>MuscleBlaze </p>
+          <div class="services__btn"><button type="button" onclick="location.href='https://www.amazon.in/MuscleBlaze-Amino-Powder-Watermelon-Splash/dp/B0813LZ4W7/ref=sr_1_8?crid=1I0Y3HX4SIFGE&keywords=bcaa&qid=1662788523&sprefix=bcaa%2Caps%2C214&sr=8-8'"> BUY NOW</button></div>
+        </div>
+        <div class="services__card">
+          <h2>GYM BAG</h2>
+          <p>Sfane Polyester 23 Cms Duffle Bag</p>
+          <div class="services__btn"><button type="button" onclick="location.href='https://www.amazon.in/SFANE-Duffel-Shoulder-Women-Compartment/dp/B07XXFB9CZ/ref=sr_1_5?keywords=GYM+BAG&qid=1662805867&sr=8-5'"> BUY NOW</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Wrist Band</h2>
+          <p>Boldfit Wrist Supporter</p>
+          <div class="services__btn"><button type="button" onclick="location.href='https://www.amazon.in/dp/B09ZLLQ3G2?pd_rd_i=B09ZLLQ3G2&pf_rd_p=d882f7bc-c7c5-4887-b939-1af6f91cc448&pf_rd_r=TKD1KJFSNSWD0H0YGT7V&pd_rd_wg=2e6oY&pd_rd_w=SOhfo&pd_rd_r=83bb537e-afc8-4ad2-88ee-8a04354c8ff4'"> BUY NOW</button></div>
+        </div>
+        <div class="services__card">
+          <h2>Creatine Powder</h2>
+          <p>Optimum Nutrition</p>
+          <div class="services__btn"><button type="button" onclick="location.href='https://www.amazon.in/Optimum-Nutrition-Micronized-Creatine-Monohydrate/dp/B002DYIZEE/ref=sr_1_6?crid=IPUIENRCAM04&keywords=creatine&qid=1662806200&sprefix=CREA%2Caps%2C268&sr=8-6'"> BUY NOW</button></div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="#sign-up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">CROSSFIT</a>
+          </div>
+          <p class="website__rights">© CROSSFIT 2022. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
